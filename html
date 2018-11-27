@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<!--
+Mitzi Bustamante
+November 14 2018
+CISC 131
+When the box is being clicked it creates a random amount of "confetti".
+Once it is clicked again the bottom of the box disappears and the confetti falls.
+-->
+<html lang="en">
+<head>
+<title>this will appear on the tab in the browser</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="confetti.js"></script>
+<style>
+*
+{
+border: 0;
+margin: 0;
+padding: 0;
+}
+body {font-family: "Times New Roman", serif;font-size: 12pt;}
+#confetti
+{
+border: 2px solid black;
+height: 10em;
+line-height: .9em;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 30em;
+}
+.confetti {font-size: 3em; position: absolute;}
+</style>
+</head>
+<body>
+<div id="confetti"></div>
+</body>
+</html>
